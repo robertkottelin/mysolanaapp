@@ -1,2 +1,2 @@
 # mysolanaapp
-a skeleton for solana apps
+A bootstrap skeleton for solana apps
