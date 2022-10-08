@@ -1,2 +1,2 @@
 # mysolanaapp
-A bootstrap skeleton for solana apps
+A bootstrap skeleton for simple solana apps with Anchor & React
