@@ -86,43 +86,6 @@ function App() {
     setInput('');
   }
 
-  // async function createCounter() {    
-  //   const provider = await getProvider()
-  //   /* create the program interface combining the idl, program ID, and provider */
-  //   const program = new Program(idl, programID, provider);
-  //   try {
-  //     /* interact with the program via rpc */
-  //     await program.rpc.create({
-  //       accounts: {
-  //         baseAccount: baseAccount.publicKey,
-  //         user: provider.wallet.publicKey,
-  //         systemProgram: SystemProgram.programId,
-  //       },
-  //       signers: [baseAccount]
-  //     });
-
-  //     const account = await program.account.baseAccount.fetch(baseAccount.publicKey);
-  //     console.log('account: ', account);
-  //     setValue(account.count.toString());
-  //   } catch (err) {
-  //     console.log("Transaction error: ", err);
-  //   }
-  // }
-
-  // async function increment() {
-  //   const provider = await getProvider(); 
-  //   const program = new Program(idl, programID, provider);
-  //   await program.rpc.increment({
-  //     accounts: {
-  //       baseAccount: baseAccount.publicKey
-  //     }
-  //   });
-
-  //   const account = await program.account.baseAccount.fetch(baseAccount.publicKey);
-  //   console.log('account: ', account);
-  //   setValue(account.count.toString());
-  // }
-
 
   if (!wallet.connected) {
     return (
